@@ -1,14 +1,19 @@
 
 <div align="center">
-<img src="img/welcome.jpg" width="auto" height="auto" >
-<img src="img/homePic.jpg" width="auto" height="auto" >
+<img src="img/" width="auto" height="auto" >
+<img src="img/" width="auto" height="auto" >
 </div>
 <p align="center"> Authored by Brian Sturgis</p>
+<p align="center"> Authored by Dani Renner</p>
+
+
 <p align="center">Updated on Jan 22nd, v1.0 2021</p>
-<p align="center">Mr Robogers Neighborhood</p>
+<p align="center">PIG DICE</p>
 
 ## Application Description
+Pig Dice is a simple dice game where Players take turns to roll a single die as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.  As with many games of folk origin, Pig Dice is played with many rule variations, including the use of two dice instead of one. 
 
+Pig is one of a family of dice games described by Reiner Knizia as "jeopardy dice games", where the dominant type of decision is whether or not to jeopardize previous gains by rolling for potential greater gains.
 
 ## The projects objectives were to complete the following (MVP)
 - JavaScript business logic and user interface logic are separate.
@@ -18,7 +23,7 @@
 none as of yet but don't fret as there will be.
 
 ## Setup/Installation Requirements
-- repository location (https://github.com/BrianSturgis/JanWeek3Project)
+- repository location (https://github.com/BrianSturgis/pigDice)
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo
@@ -27,46 +32,43 @@ none as of yet but don't fret as there will be.
 - THIS APPLICATION IS INTENDED TO BE USED FULL SCREEN, IN  A BROWSER WINDOW, LANDSCAPE.
 
 ## GIT HUB
-- repository location (https://github.com/BrianSturgis/JanWeek3Project
+- repository location (https://github.com/BrianSturgis/pigDice
 - open through a git terminal or clone editor.
 - got to repo location.
 - using git commands clone to local repo or click "download" and unpack on machine
 
 ## GIT HUB PAGES 
-- (https://briansturgis.github.io/JanWeek3Project/)
+- (https://briansturgis.github.io/pigDice/)
 
 ## SPECS
+```JS
+Test: "It should do some stuff or make a thing"
 
-Test: "It should create an empty array called numberRange"
+Expect:().toEqual();
 
-Expect:(numberRange).toEqual([]);
+Test: "It should do some stuff or make a thing"
 
-Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "3" in it"
-Expect:(numberRange).toEqual(["3"]);
+Expect:().toEqual();
 
-Test: "if a number range from the number given to zero is "3" then three will br replaced with "Won't you be my neighbor?"
-Expect:(numberRange).toEqual(["Won't you be my neighbor?"]);
+Test: "It should do some stuff or make a thing"
 
-Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "2" in it"
-Expect:(numberRange).toEqual(["2"]);
+Expect:().toEqual();
 
-Test: "if a number range from the number given to zero is "3" then three will br replaced with "boop"
-Expect:(numberRange).toEqual(["boop"]);
+Test: "It should do some stuff or make a thing"
 
-Test: "loops through inputted number and checks if a range of numbers starting at inputted number includes a string with "1" in it"
-Expect:(numberRange).toEqual(["1"]);
+Expect:().toEqual();
 
-Test: "if a number range from the number given to zero is "1" then three will br replaced with "beep"
-Expect:(numberRange).toEqual(["beep"]);
+Test: "It should do some stuff or make a thing"
+
+Expect:().toEqual();
+
+
+```
 
 ## Stretch goals
 - Images, styling, and custom animations used in UI.
-- Implement different behaviors/effects/images for different inputs.
-- Include an option that returns the output in reversed order (beginning with the largest number).
-- Add a second form field that takes a name as an input. Then update the output so that the program states "Won't you be my neighbor, [name]?" instead of "Won't you be my neighbor?"
+- Add a second form field that takes a name as an input. Then update the output so that the program states "thanks for playing Name 
 - Animated UI
-- Unity driven UI
-- Adobe DSP workflow fully integrated 
 
 ## Support and contact details
 email Brian Sturgis @ <sturujisu@gmail.com>
