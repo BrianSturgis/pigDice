@@ -3,9 +3,7 @@
   margin: 0%;
   padding: 0%;
 }
-.jumbotron {
 
-}
 h1 {
   font-family: 'Chango', cursive;
 
@@ -22,11 +20,10 @@ body {
   justify-content: center;
   align-items: center;  
 
+}
 
-
-
-#background {
-
+.output {
+  display: none;
 }
 
 

@@ -42,9 +42,9 @@ none as of yet but don't fret as there will be.
 
 ## SPECS
 ```JS
-Test: "will create a variable called "dice""
+Test: "It will register user button click and return a random number 1-6"
 
-Expect:(PigDice).toEqual(int);
+Expect:(PigDice).toEqual(1-6);
 
 Test: "it will  "
 
