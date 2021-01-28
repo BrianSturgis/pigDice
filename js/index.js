@@ -36,6 +36,7 @@ $(document).ready(function() {
     $(".output").show();
     $("#userRoll").text(playerOne.roll + " ");
     $("#userScore").text(playerOne.total);
+    $("#loseMessage").text(" " + playerOne.message);
   });
 });
 

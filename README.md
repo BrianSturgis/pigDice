@@ -46,13 +46,13 @@ Test: "It will register user button click and return a random number 1-6"
 
 Expect:(PigDice).toEqual(1-6);
 
-Test: "it will  "
+Test: "it will generate a random number between 1-6"
 
-Expect:diceRoll().toEqual();
+Expect:diceRoll(this.roll).toEqual(1-6);
 
-Test: "It should do some stuff or make a thing"
+Test: "it should add roll to total"
 
-Expect:scorekeeper().toEqual();
+Expect:scorekeeper(this.total).toEqual(this.total += this.roll);
 
 Test: " "
 
