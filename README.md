@@ -52,13 +52,13 @@ Expect:diceRoll().toEqual();
 
 Test: "It should do some stuff or make a thing"
 
+Expect:scorekeeper().toEqual();
+
+Test: " "
+
 Expect:().toEqual();
 
-Test: "It should do some stuff or make a thing"
-
-Expect:().toEqual();
-
-Test: "It should do some stuff or make a thing"
+Test: " "
 
 Expect:().toEqual();
 

@@ -13,14 +13,18 @@ h1 {
   font-family: 'Chango', cursive;
 }
 
+
 body {
   text-align: center;
   background-color: aqua;
   justify-content: center;
   align-items: center;  
+
 }
 
 .output {
   display: none;
 }
+
+
 
